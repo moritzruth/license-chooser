@@ -9,13 +9,16 @@
         <span class="block">
           {{ replacementLabels[name] }}
         </span>
-        <input v-model="replacements[name]" class="font-mono border-gray-300 border-2 px-3 py-2 rounded-lg outline-none focus:border-blue-400 transition duration-200 w-full">
+        <input
+          v-model="replacements[name]"
+          class="font-mono bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600 border-2 px-3 py-2 rounded-lg outline-none focus:border-blue-400 transition w-full"
+        >
       </label>
       <p v-if="text.includes('[year]')">
         The year is automatically replaced.
       </p>
     </form>
-    <div class="p-4 bg-gray-100 font-mono w-full max-h-50vh overflow-auto relative">
+    <div class="p-4 bg-gray-100 dark:bg-gray-800 font-mono w-full max-h-50vh overflow-auto relative">
       <pre v-text="resultingText"/>
     </div>
   </div>

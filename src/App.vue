@@ -11,15 +11,16 @@
           <h2 class="font-bold text-2xl mb-2">
             Questions
           </h2>
-          <div class="-sm:space-y-4 -md:mb-8 sm:space-x-2">
+          <div class="-sm:space-y-4 -md:mb-8 sm:space-x-5">
             <button
-              class="py-2 px-4 mt-2 bg-blue-300 rounded-md text-base font-bold shadow-lg -sm:w-full"
+              class="py-2 px-4 mt-2 bg-blue-300 dark:bg-blue-600 rounded-md text-base font-bold shadow-lg -sm:w-full"
               @click="showAllLicenses()"
             >
               Just show me all licenses
             </button>
             <button
-              class="py-2 px-4 mt-2 bg-red-300 rounded-md font-bold shadow-lg transition duration-200 disabled:shadow-sm disabled:opacity-60 disabled:cursor-default -sm:w-full"
+              class="py-2 px-4 mt-2 bg-red-300 dark:bg-red-500 rounded-md font-bold shadow-lg transition duration-200 -sm:w-full
+                     disabled:shadow-sm disabled:opacity-70 disabled:cursor-default"
               :disabled="!answersNotDefault"
               @click="resetAnswers()"
             >
@@ -42,16 +43,16 @@
           <template
             v-for="license in displayedLicenses"
           >
-            <!-- eslint-disable vue/require-v-for-key -->
-            <h2
-              v-if="license === 'MATCHING'"
-              ref="matchingHeadingElement"
-              key="MATCHING"
-              class="font-bold text-2xl transition-all duration-500 w-full"
-            >
-              Matching licenses ({{ matchingLicenses.length }})
-            </h2>
-            <!-- eslint-disable vue/require-v-for-key -->
+            <!-- eslint-disable-next-line vue/require-v-for-key -->
+            <div v-if="license === 'MATCHING'" key="MATCHING">
+              <h2 ref="matchingHeadingElement" class="font-bold text-2xl transition-all duration-500 w-full">
+                Matching licenses ({{ matchingLicenses.length }})
+              </h2>
+              <p class="text-lg font-bold dark:text-yellow-400 mt-3">
+                Tip: Use <kbd>Ctrl</kbd>+<kbd>F</kbd> to search.
+              </p>
+            </div>
+            <!-- eslint-disable-next-line vue/require-v-for-key -->
             <h2 v-else-if="license === 'REMAINING'" key="REMAINING" class="font-bold text-2xl transition-all duration-500 mt-14 w-full opacity-60">
               Remaining licenses ({{ remainingLicenses.length }})
             </h2>
@@ -93,7 +94,7 @@
 
 <style>
   a {
-    @apply text-blue-500 no-underline font-bold;
+    @apply text-blue-500 dark:text-blue-400 no-underline font-bold;
   }
 
   button:disabled {
@@ -218,7 +219,7 @@
         displayedLicenses: computed(() => matchingLicenses.value === undefined ? null : ["MATCHING", ...matchingLicenses.value, "REMAINING", ...remainingLicenses.value]),
         counterClasses: computed(() => {
           if (answersNotDefault.value) {
-            if (matchingLicenses.value !== undefined && matchingLicenses.value.length === 0) return "bg-red-200 animate-bounce text-2xl"
+            if (matchingLicenses.value !== undefined && matchingLicenses.value.length === 0) return "bg-red-200 dark:bg-red-500 animate-bounce text-2xl"
             return "bg-green-300 text-green-900 text-lg"
           }
 

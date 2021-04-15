@@ -7,13 +7,12 @@
       <div class="font-mono text-xl underline rounded-md px-2 py-1 inline-block" :class="section.colorClass">
         {{ section.title }}
       </div>
-      <p class="text-lg text-blue-500 mt-4 mb-5">
+      <p class="text-lg text-blue-500 dark:text-blue-400 mt-4 mb-5">
         {{ section.text }}
       </p>
       <div class="flex flex-col space-y-10">
         <QuestionsFormQuestion
           v-for="(question, id) in section.questions"
-          :id="id"
           :key="id"
           :question="question"
           :question-id="id"

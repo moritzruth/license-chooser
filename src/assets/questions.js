@@ -1,7 +1,7 @@
 export const QUESTIONS_FORM_SECTIONS = {
   general: {
     title: "General",
-    colorClass: "bg-blue-200",
+    colorClass: "bg-blue-200 dark:bg-blue-500",
     text: "All open-source licenses allow commercial use, private use, modification and distribution.",
     questions: {
       patentUseAllowed: {
@@ -24,7 +24,7 @@ export const QUESTIONS_FORM_SECTIONS = {
   },
   conditions: {
     title: "Conditions",
-    colorClass: "bg-yellow-200",
+    colorClass: "bg-yellow-200 dark:bg-yellow-400 dark:text-black",
     questions: {
       includeLicenseAlways: {
         disableIfSet: ["includeLicenseSource"],
@@ -57,7 +57,7 @@ export const QUESTIONS_FORM_SECTIONS = {
   },
   limitations: {
     title: "Limitations",
-    colorClass: "bg-red-200",
+    colorClass: "bg-red-200 dark:bg-red-500",
     questions: {
       trademarkUse: {
         label: "The license <strong>explicitly does not</strong> grant trademark rights.",

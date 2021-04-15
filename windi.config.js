@@ -3,6 +3,10 @@ import colors from "windicss/colors"
 import lineClampPlugin from "windicss/plugin/line-clamp"
 
 export default defineConfig({
+  extract: {
+    include: ["src/**/*.{vue,js}", "index.html"]
+  },
+  darkMode: "media",
   plugins: [lineClampPlugin],
   theme: {
     colors: {

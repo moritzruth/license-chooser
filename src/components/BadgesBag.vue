@@ -3,7 +3,7 @@
     <HasTooltip
       v-for="item in items"
       :key="item"
-      class="px-2 py-1 rounded-md mr-2 mb-2 text-sm outline-none focus-visible:outline-black font-mono"
+      class="px-2 py-1 rounded-md mr-2 mb-2 text-sm outline-none focus-visible:outline-black dark:focus-visible:outline-white font-mono"
       :class="badgeClass"
       allow-html
       :content="item[1]"

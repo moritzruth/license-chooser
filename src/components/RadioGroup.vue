@@ -1,12 +1,12 @@
 <template>
-  <div class="space-x-2 md:space-x-5 flex flex-shrink-0 focus-within:ring-3 ring-offset-5 rounded-md">
+  <div class="space-x-2 md:space-x-5 flex flex-shrink-0 focus-within:ring-3 ring-offset-5 ring-offset-gray-50 dark:ring-offset-gray-900 dark:ring-blue-400 rounded-md">
     <label
       v-for="item in items"
       :key="item.value"
       class="flex flex-col items-center rounded-md"
     >
-      <span class="flex w-8 h-8 rounded-full border-2 border-gray-200 inline-flex items-center justify-center">
-        <span class="w-4 h-4 transition duration-100 rounded-full" :class="modelValue === item.value ? 'bg-gray-600' : ''"/>
+      <span class="flex w-8 h-8 rounded-full border-2 border-gray-200 dark:border-gray-400 inline-flex items-center justify-center">
+        <span class="w-4 h-4 transition duration-100 rounded-full" :class="modelValue === item.value ? 'bg-gray-600 dark:bg-gray-400' : ''"/>
       </span>
       <span class="mt-2">
         {{ item.label }}

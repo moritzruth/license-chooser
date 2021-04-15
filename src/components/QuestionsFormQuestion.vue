@@ -2,11 +2,11 @@
   <div class="flex md:items-center -md:flex-col -md:space-y-3 transition duration-200 pb-5" :class="disabled ? 'pointer-events-none opacity-40' : ''">
     <div class="-md:mb-4">
       <div class="text-lg md:text-xl" v-html="question.label"/>
-      <div v-if="question.description" class="text-base md:text-lg mt-2 text-gray-500">
+      <div v-if="question.description" class="text-base md:text-lg mt-2 text-gray-500 dark:text-gray-400">
         {{ question.description }}
       </div>
     </div>
-    <div class="h-1px bg-gray-200 flex-grow mx-8 -md:hidden"/>
+    <div class="h-1px bg-gray-200 dark:bg-gray-700 flex-grow mx-8 -md:hidden"/>
     <div class="space-x-2 md:space-x-5 flex flex-shrink-0 mx-auto relative top-3" :class="question.requiredValue === undefined ? '' : 'opacity-60'">
       <RadioGroup
         :disabled="disabled"
