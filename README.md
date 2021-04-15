@@ -13,3 +13,7 @@ Answer some questions and see which licenses open-source licenses match your req
 - 🧠 Remembers placeholder values
 
 Built with Vue.js 3, Vite.js and WindiCSS.
+
+---
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I73NKH9)
