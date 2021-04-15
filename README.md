@@ -7,7 +7,7 @@ Answer some questions and see which licenses open-source licenses match your req
 
 ## Features
 - ✅ Offline-ready
-- 🖤 Dark mode (coming soon™)
+- 🖤 Dark mode
 - 👀 License browser
 - 🖊 Easy replacement of placeholders
 - 🧠 Remembers placeholder values
