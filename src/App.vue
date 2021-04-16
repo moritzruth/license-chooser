@@ -3,7 +3,7 @@
   <main class="max-w-5xl px-6 mx-auto py-10 sm:py-15">
     <h1 class="font-bold text-4xl sm:text-5xl mb-5 md:mb-8">Open-Source License Chooser</h1>
     <p class="italic mb-10">
-      This is not legal advise.
+      As I am not a lawyer, this is not legal advice. Consult with a professional if you are doing something serious.
     </p>
     <div class="flex flex-col space-y-10">
       <div class="flex-grow">
@@ -89,6 +89,7 @@
       and <a href="https://github.com/spdx/license-list-data">license-list-data by SPDX</a>
       which are licensed under the <a class="whitespace-nowrap" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> license.
     </div>
+    <a href="https://moritzruth.de/impressum" target="_blank" rel="noreferrer noopener">Impressum</a>
   </footer>
 </template>
 

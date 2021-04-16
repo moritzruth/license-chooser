@@ -1674,18 +1674,18 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-awzzm-vue@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-awzzm-vue/-/eslint-config-awzzm-vue-1.5.0.tgz#93abc96333de86f3c56b7e9597285d19c5e6ceff"
-  integrity sha512-nZ0s8if0F5trl/e9twPBs+1HJBeXLGjzVgEFsPCpSxdOaVqvLX5/wFHJA5qMXC23fh8oQwqcsMZnMDHAKdOi3A==
+eslint-config-awzzm-vue@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-awzzm-vue/-/eslint-config-awzzm-vue-1.6.0.tgz#0d936c96df3fcf74f9009ceeb559fad76f9ae555"
+  integrity sha512-qqYoCJrAYhn6SeUqAO5RNNpYo2P3oHJVkkt8PgW1tlruXGNm9zpd+TYVWYeD+vyQfGocAAT1e0RfICHz+FAa6w==
   dependencies:
-    eslint-config-awzzm "^1.5.0"
+    eslint-config-awzzm "^1.6.0"
     eslint-plugin-vue "^7.5.0"
 
-eslint-config-awzzm@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-awzzm/-/eslint-config-awzzm-1.5.0.tgz#af9fe495629c6ec62515c0db73138f68d18f12b4"
-  integrity sha512-ETzMzLGKdrRYX9uwtxl6cBkD42hhGAbkDeFWZBtlHD69BCrxHTC4eidriYgGlEitLvgYNvIj3KuTViEqnxIavw==
+eslint-config-awzzm@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-awzzm/-/eslint-config-awzzm-1.6.0.tgz#3fb204abec56c545ce7b6f651c65894cc23b97eb"
+  integrity sha512-+rcPbPrm98Oc91IQHxqgw4k1voLn7Z8E/Q/sbfhA8vcSeh9AUGKr5QrUSFEQ6K5H6CftfLbx/tPzkBuk92DkBA==
   dependencies:
     eslint-plugin-import "^2.22.1"
     eslint-plugin-unicorn "^28.0.0"
