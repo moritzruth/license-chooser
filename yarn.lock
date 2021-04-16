@@ -1533,14 +1533,7 @@ debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
-  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
-  dependencies:
-    ms "2.1.2"
-
-debug@^4.3.2:
+debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -3065,14 +3058,7 @@ rollup-plugin-terser@^7.0.0:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup@^2.38.5:
-  version "2.45.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.45.1.tgz#eae2b94dc2088b4e0a3b7197a5a1ee0bdd589d5c"
-  integrity sha512-vPD+JoDj3CY8k6m1bLcAFttXMe78P4CMxoau0iLVS60+S9kLsv2379xaGy4NgYWu+h2WTlucpoLPAoUoixFBag==
-  optionalDependencies:
-    fsevents "~2.3.1"
-
-rollup@^2.43.1, rollup@^2.44.0:
+rollup@^2.38.5, rollup@^2.43.1, rollup@^2.44.0:
   version "2.45.2"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.45.2.tgz#8fb85917c9f35605720e92328f3ccbfba6f78b48"
   integrity sha512-kRRU7wXzFHUzBIv0GfoFFIN3m9oteY4uAsKllIpQDId5cfnkWF2J130l+27dzDju0E6MScKiV0ZM5Bw8m4blYQ==
@@ -3569,10 +3555,10 @@ vite-plugin-icons@^0.5.0:
     "@iconify/json-tools" "^1.0.10"
     vue-template-es2015-compiler "^1.9.1"
 
-vite-plugin-pwa@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.7.1.tgz#fb217335687d217cc2a0973781ec2fe66523167b"
-  integrity sha512-cweBld0QnNYvV93UdHdyu7YieJW6vOQPNNutmvuZ0jgWscoX2v9qwXM76tw5w0aZu4ShUFYVAvboxZ2Avmbt6Q==
+vite-plugin-pwa@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.7.2.tgz#266ddd6089807d9edf6fe3aea068b3f5c75c8d27"
+  integrity sha512-F8yAH3lJxyXS9Qv8aThdqyB4zaMGad8rcdAJCj4c+ogKCmoQExA/2Acwd5nUq2g66mlXJYIRhMwMczCOdEjAIw==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
