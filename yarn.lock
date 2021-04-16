@@ -1126,10 +1126,10 @@
   dependencies:
     vue-demi latest
 
-"@windicss/plugin-utils@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.14.0.tgz#ca5459e81d38fbe3c1eac0574ffdc8dba06961a4"
-  integrity sha512-PnXKrCX7dl3tQPkfc2RGOQCqzS+3ApTLelGhr0c1kbHgz+EjaS+pK9vhhQm/8xgzyJLyreYUuQEEAvvPtBRBEQ==
+"@windicss/plugin-utils@0.14.5":
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.14.5.tgz#f41889c866ca9163981276ab9f2903b8bea091e8"
+  integrity sha512-5BFPFGFskNBm9JudAlWJSgk0Pq5H9fmbhY2O2WZzvy0eZCJ9fY3f9lJrUxZElLSP9Tp72r08kV+9x/39X63bsQ==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
@@ -3567,12 +3567,12 @@ vite-plugin-pwa@^0.7.2:
     workbox-build "^6.1.2"
     workbox-window "^6.1.2"
 
-vite-plugin-windicss@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.14.0.tgz#e2e1c2a14eff7a5a3c417c388e5d865fa6157967"
-  integrity sha512-f4Dgvpgq1i2rvqJ3He4gZ+BYrgz6OiQwHOLMOMU4RbyWY1Vr7gdNs71E/AbN2DWdkm+L/fj/4BNhvlp35I8+fw==
+vite-plugin-windicss@^0.14.5:
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.14.5.tgz#399cbe8964595f02ba9d6d66dc3503f4cf983de0"
+  integrity sha512-TOYb4Bz5FpWfJavzAtvjuhGew6tJnjx1ZxRmEBOG7RUFFdclWG0CRcHXSVvwpigYHl2TaNwkpHmpM8dyhN6Scw==
   dependencies:
-    "@windicss/plugin-utils" "0.14.0"
+    "@windicss/plugin-utils" "0.14.5"
     chalk "^4.1.0"
     debug "^4.3.2"
     windicss "^2.5.14"
