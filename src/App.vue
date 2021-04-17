@@ -123,7 +123,7 @@
     const licensesJson = localStorage.getItem("licenses")
 
     if (licensesJson === null) {
-      fetch("https://moritzruth.github.io/spdx-license-data/licenses.full.json").then(response => response.json())
+      fetch("https://license-data.moritzruth.de/licenses.full.json").then(response => response.json())
         .then(data => {
           licenses.value = data.map(license => ({
             ...license,
