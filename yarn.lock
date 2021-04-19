@@ -1104,12 +1104,12 @@
     "@vueuse/shared" "4.8.1"
     vue-demi latest
 
-"@vueuse/integrations@^4.8.1":
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-4.8.1.tgz#064f9867d4b2f265fbe93f3a816a28d1e76841e4"
-  integrity sha512-GfQknyDwLOO7K58jSL/7lWrEppuirSB95Hl7/ucNt3FrlWFSGCLcTazlBE66qmh7e5gHv0lFT7zfNPgcANEDXw==
+"@vueuse/integrations@^4.8.2":
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-4.8.2.tgz#27e8d91ff070b3fea4a95fda2b92b1e6ab0005f4"
+  integrity sha512-3kHJugErXuaIqzRCMxsaD/XRkvgMfXazNh5msjI62P/EtM9cS0bx1LzQV+wJX/+yJlF42otoYzQlfp5sL8gBQw==
   dependencies:
-    "@vueuse/shared" "4.8.1"
+    "@vueuse/shared" "4.8.2"
     vue-demi latest
   optionalDependencies:
     axios "^0.21.1"
@@ -1123,6 +1123,13 @@
   version "4.8.1"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.8.1.tgz#45fd5f64bf4e8944db42a5b72fa2705cfc74608a"
   integrity sha512-ONKJoIvZPrGCA8loK7dX+ZcjgZLikI+vPiz1lWlXs6+jZiQiZSLkmvg1NjV6Cfb6OqbDCfEScTWLbZHB7EwrRw==
+  dependencies:
+    vue-demi latest
+
+"@vueuse/shared@4.8.2":
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.8.2.tgz#7c9a738ddba9b60b3eb2e6702d657c2b4c94651c"
+  integrity sha512-Bjy15IHyqUpRbg9cRE9afFwD0gLtGI0tJW7fITWGCwYmSWpBoD+EnGBBGvnoP9pOtxkri9Wte/uKwcVnDos7QA==
   dependencies:
     vue-demi latest
 
