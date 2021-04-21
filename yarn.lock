@@ -1104,27 +1104,20 @@
     "@vueuse/shared" "4.8.4"
     vue-demi latest
 
-"@vueuse/integrations@^4.8.2":
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-4.8.2.tgz#27e8d91ff070b3fea4a95fda2b92b1e6ab0005f4"
-  integrity sha512-3kHJugErXuaIqzRCMxsaD/XRkvgMfXazNh5msjI62P/EtM9cS0bx1LzQV+wJX/+yJlF42otoYzQlfp5sL8gBQw==
+"@vueuse/integrations@^4.8.4":
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-4.8.4.tgz#b899d13513206ed700a28631062e4dc0f8bf64e6"
+  integrity sha512-MNjDyn4IHGLZShBk1AFgOK7lyTnaIV0Gsd2G8FbaIejtmkfhhU833DK4rVftpG91Q3l6wTO0AsjPiBq86Krirg==
   dependencies:
-    "@vueuse/shared" "4.8.2"
+    "@vueuse/shared" "4.8.4"
     vue-demi latest
   optionalDependencies:
     axios "^0.21.1"
-    focus-trap "^6.3.0"
+    focus-trap "^6.4.0"
     jwt-decode "^3.1.2"
     nprogress "^0.2.0"
     qrcode "^1.4.4"
     universal-cookie "^4.0.4"
-
-"@vueuse/shared@4.8.2":
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.8.2.tgz#7c9a738ddba9b60b3eb2e6702d657c2b4c94651c"
-  integrity sha512-Bjy15IHyqUpRbg9cRE9afFwD0gLtGI0tJW7fITWGCwYmSWpBoD+EnGBBGvnoP9pOtxkri9Wte/uKwcVnDos7QA==
-  dependencies:
-    vue-demi latest
 
 "@vueuse/shared@4.8.4":
   version "4.8.4"
@@ -1979,12 +1972,12 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
-focus-trap@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.3.0.tgz#31c08f0b6099705f71f6e0a16d88fbcc4c012586"
-  integrity sha512-BBzvFfkPg5PqrVVCdQ1YOIVNKGvqG9YNVkiAUQFuDM66N8J9uADhs6mlYKrd30ofDJIzEniBnBKM7GO45iCzKQ==
+focus-trap@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.4.0.tgz#e9951484fddf933d9b9b0e95b499f9420f6a54d6"
+  integrity sha512-RpH291GjfNhy1ek+Iwe00oCaqJN0sBaB+S/v7BpCIldf39IslPI7657nOZ6HwgoEHpjCmUJoAY+Mfgrm0rohvQ==
   dependencies:
-    tabbable "^5.1.5"
+    tabbable "^5.2.0"
 
 follow-redirects@^1.10.0:
   version "1.13.3"
@@ -3335,7 +3328,7 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-tabbable@^5.1.5:
+tabbable@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.2.0.tgz#4fba60991d8bb89d06e5d9455c92b453acf88fb2"
   integrity sha512-0uyt8wbP0P3T4rrsfYg/5Rg3cIJ8Shl1RJ54QMqYxm1TLdWqJD1u6+RQjr2Lor3wmfT7JRHkirIwy99ydBsyPg==
