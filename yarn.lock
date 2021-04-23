@@ -1126,17 +1126,17 @@
   dependencies:
     vue-demi latest
 
-"@windicss/plugin-utils@0.14.6":
-  version "0.14.6"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.14.6.tgz#25d3fdda3a8b0a560f3daed6588abd0a4fbef195"
-  integrity sha512-jF+dJ6D4/UqVHSbH5kCdSoPnklLTZDf+seck4unICI0qyzmyPsrO15nmSS/gIvnmCedUfBrQj1MfYOX0tccFjQ==
+"@windicss/plugin-utils@0.15.7":
+  version "0.15.7"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.15.7.tgz#3865e1a7b48806fac048865a3ab35912958f712d"
+  integrity sha512-++2POqhrvL589Xv8X6ZX7sCG2Jb9rzbbGQCvClhoOxhPFFkPuLnZtGB+KIa2l1QarPXUQCaSjQ+zxFiu6IgI/g==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
     magic-string "^0.25.7"
     micromatch "^4.0.4"
     pirates "^4.0.1"
-    sucrase "^3.17.1"
+    sucrase "^3.18.1"
     windicss "^2.5.14"
 
 acorn-jsx@^5.2.0, acorn-jsx@^5.3.1:
@@ -3302,7 +3302,7 @@ striptags@^3.1.1:
   resolved "https://registry.yarnpkg.com/striptags/-/striptags-3.1.1.tgz#c8c3e7fdd6fb4bb3a32a3b752e5b5e3e38093ebd"
   integrity sha1-yMPn/db7S7OjKjt1LltePjgJPr0=
 
-sucrase@^3.17.1:
+sucrase@^3.18.1:
   version "3.18.1"
   resolved "https://registry.yarnpkg.com/sucrase/-/sucrase-3.18.1.tgz#7c699d5148734b1105542ca4ea2aa69bcab7f728"
   integrity sha512-TRyO38wwOPhLLlM8QLOG3TgMj0FKk+arlTrS9pRAanF8cAcHvgRPKIYWGO25mPSp/Rj87zMMTjFfkqIZGI6ZdA==
@@ -3567,12 +3567,12 @@ vite-plugin-pwa@^0.7.2:
     workbox-build "^6.1.2"
     workbox-window "^6.1.2"
 
-vite-plugin-windicss@^0.14.6:
-  version "0.14.6"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.14.6.tgz#c17b66b5f35a3b1ffdfc3e969ce28a528305716e"
-  integrity sha512-bFyKfvnsa3nAab9LgrFInzdQhsIJyeNdCczgjrYMxjO8WlgiQuIFyJ1RTYQnYmQRlbvU9jpOL5XDxsFUMKRLUg==
+vite-plugin-windicss@^0.15.7:
+  version "0.15.7"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.15.7.tgz#6999c7a971a3bde887c2f701e56adc56953435d9"
+  integrity sha512-RYASJYA6l2p3MgQ6M6GU44zP0iC5cBkuTJhhrmHaRREleL9fNpblBwdS0lbvcr5Q4LT6AGpmmTlF50iIwo3JkQ==
   dependencies:
-    "@windicss/plugin-utils" "0.14.6"
+    "@windicss/plugin-utils" "0.15.7"
     chalk "^4.1.0"
     debug "^4.3.2"
     windicss "^2.5.14"
