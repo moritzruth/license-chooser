@@ -1104,13 +1104,13 @@
     "@vueuse/shared" "4.8.4"
     vue-demi latest
 
-"@vueuse/integrations@^4.8.4":
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-4.8.4.tgz#b899d13513206ed700a28631062e4dc0f8bf64e6"
-  integrity sha512-MNjDyn4IHGLZShBk1AFgOK7lyTnaIV0Gsd2G8FbaIejtmkfhhU833DK4rVftpG91Q3l6wTO0AsjPiBq86Krirg==
+"@vueuse/integrations@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-5.0.3.tgz#64820965d068b356b4df50ed47a87adf0141f68e"
+  integrity sha512-c7dy7u4XTJeSfq/NnFotoUPrbkPJv/DbWwEYVW9YXXMdDvz1IxDdXUFrOu8ElM0qzGn4CuYg6Yr37uYR13MgXg==
   dependencies:
-    "@vueuse/shared" "4.8.4"
-    vue-demi latest
+    "@vueuse/shared" "5.0.3"
+    vue-demi "*"
   optionalDependencies:
     axios "^0.21.1"
     focus-trap "^6.4.0"
@@ -1125,6 +1125,13 @@
   integrity sha512-dN5qZnC3hTJppUL8fFqkfJvgcfKT5agyYtr8nyO47kWTdNKYq7S/yXUvcA1W/OBY95erdpo4s2vlcy0aV2CdgA==
   dependencies:
     vue-demi latest
+
+"@vueuse/shared@5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-5.0.3.tgz#31613951d5036459650ad8d47a9185e8950ea3c9"
+  integrity sha512-aY93WPygr8H/4RB8YuOmAD83Y+faq7zwW10Kd9i0kD9zf5ysVP+32j09rF/mZVtGCa0CSM8ambPZMsEhCkRbwQ==
+  dependencies:
+    vue-demi "*"
 
 "@windicss/plugin-utils@0.15.7":
   version "0.15.7"
@@ -3588,6 +3595,11 @@ vite@^2.2.3:
     rollup "^2.38.5"
   optionalDependencies:
     fsevents "~2.3.1"
+
+vue-demi@*:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.9.1.tgz#25d6e1ebd4d4010757ff3571e2bf6a1d7bf3de82"
+  integrity sha512-7s1lufRD2l369eFWPjgLvhqCRk0XzGWJsQc7K4q+0mZtixyGIvsK1Cg88P4NcaRIEiBuuN4q1NN4SZKFKwQswA==
 
 vue-demi@latest:
   version "0.7.4"
