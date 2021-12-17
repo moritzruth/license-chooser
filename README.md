@@ -1,5 +1,5 @@
 # license-chooser
-> PWA helping you choose the license of your next project.
+> PWA helping you choose the license of your next open-source project.
 
 Answer some questions and see which licenses open-source licenses match your requirements:
 
